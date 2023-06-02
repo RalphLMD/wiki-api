@@ -1,0 +1,21 @@
+<%- include("partials/header") -%>
+
+<section class="create-section">
+    <h1 class="mb-4">Compose an article</h1>
+    <div class="container article-form">
+        <form class="form" method="post" action="/articles/create">
+            <div class="form-group p-4">
+                <label for="inputCompose">Title</label>
+                <input class="form-control" type="text" id="articleTitle" name="title" placeholder="">
+            </div>
+            <div class="form-group p-4">
+                <label for="articleContent">Content</label>
+                <textarea class="form-control" type="text" id="articleContent" name="content" placeholder="" rows="6"></textarea>
+            </div>
+            <button class="btn btn-primary" name="button" type="submit">Publish</button>
+        </form>
+    </div>
+</section>
+
+
+<%- include("partials/footer") -%>

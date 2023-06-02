@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    text-align: center;
+}
+
+section{
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.article-content {
+     height: 8rem; 
+ }
+ 
+.published-container {
+     margin: 2rem;
+     padding: 2rem;
+     width: 350px;
+     min-height: 300px;
+     border-radius: 5%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     text-align: center;
+}
+
+.article-container {
+    margin: auto;
+}
+
+.create-section{
+    padding: 2rem;
+    width: 500px;
+    min-height: 300px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+footer{
+    margin-top: 10rem;
+}
+
